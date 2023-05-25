@@ -5,12 +5,14 @@
 import config from "./deno.json" assert { type: "json" };
 import { DecoManifest } from "$live/types.ts";
 import * as $0 from "./functions/LoadGitHubRaw.ts";
-import * as $$$$0 from "./routes/_app.tsx";
-import * as $$$$1 from "./routes/styles.css.ts";
-import * as $$$$$$$$0 from "./sections/GetStarted.tsx";
-import * as $$$$$$$$1 from "./sections/Head.tsx";
-import * as $$$$$$$$2 from "./sections/DesignSystem.tsx";
-import * as $$$$$$$$3 from "./sections/Team.tsx";
+import * as $$$$0 from "./routes/styles.css.ts";
+import * as $$$$1 from "./routes/_app.tsx";
+import * as $$$$$$$$0 from "./sections/DesignSystem.tsx";
+import * as $$$$$$$$1 from "./sections/GetStarted.tsx";
+import * as $$$$$$$$2 from "./sections/Head.tsx";
+import * as $$$$$$$$3 from "./sections/Header.tsx";
+import * as $$$$$$$$4 from "./sections/Hero.tsx";
+import * as $$$$$$$$5 from "./sections/Team.tsx";
 import * as $live_middleware from "$live/routes/_middleware.ts";
 import * as $live_workbench from "$live/routes/live/workbench.ts";
 import * as $live_invoke from "$live/routes/live/invoke/index.ts";
@@ -152,7 +154,7 @@ const manifest = {
     "deco-sites/std/functions/vtexWishlist.ts": i2$26,
   },
   "routes": {
-    "./routes/_app.tsx": $$$$0,
+    "./routes/_app.tsx": $$$$1,
     "./routes/_middleware.ts": $live_middleware,
     "./routes/[...catchall].tsx": $live_catchall,
     "./routes/index.tsx": $live_catchall,
@@ -164,16 +166,18 @@ const manifest = {
     "./routes/live/previews/[...block].tsx": $live_previews,
     "./routes/live/release.ts": $live_release,
     "./routes/live/workbench.ts": $live_workbench,
-    "./routes/styles.css.ts": $$$$1,
+    "./routes/styles.css.ts": $$$$0,
   },
   "sections": {
     "$live/sections/PageInclude.tsx": i2$$$$0,
     "$live/sections/Slot.tsx": i2$$$$1,
     "$live/sections/UseSlot.tsx": i2$$$$2,
-    "deco-sites/headersigma/sections/DesignSystem.tsx": $$$$$$$$2,
-    "deco-sites/headersigma/sections/GetStarted.tsx": $$$$$$$$0,
-    "deco-sites/headersigma/sections/Head.tsx": $$$$$$$$1,
-    "deco-sites/headersigma/sections/Team.tsx": $$$$$$$$3,
+    "deco-sites/headersigma/sections/DesignSystem.tsx": $$$$$$$$0,
+    "deco-sites/headersigma/sections/GetStarted.tsx": $$$$$$$$1,
+    "deco-sites/headersigma/sections/Head.tsx": $$$$$$$$2,
+    "deco-sites/headersigma/sections/Header.tsx": $$$$$$$$3,
+    "deco-sites/headersigma/sections/Hero.tsx": $$$$$$$$4,
+    "deco-sites/headersigma/sections/Team.tsx": $$$$$$$$5,
     "deco-sites/std/sections/Analytics.tsx": i2$$$$3,
     "deco-sites/std/sections/configButterCMS.global.tsx": i2$$$$4,
     "deco-sites/std/sections/configOCC.global.tsx": i2$$$$5,

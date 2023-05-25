@@ -73,6 +73,8 @@
               "deco-sites/headersigma/sections/DesignSystem.tsx",
               "deco-sites/headersigma/sections/GetStarted.tsx",
               "deco-sites/headersigma/sections/Head.tsx",
+              "deco-sites/headersigma/sections/Header.tsx",
+              "deco-sites/headersigma/sections/Hero.tsx",
               "deco-sites/headersigma/sections/Team.tsx",
               "deco-sites/std/sections/Analytics.tsx",
               "deco-sites/std/sections/configButterCMS.global.tsx",
@@ -7283,6 +7285,31 @@
       ],
       "title": "deco-sites/headersigma/sections/Head.tsx@Props"
     },
+    "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image": {
+      "type": "string",
+      "format": "image-uri",
+      "title": "Image"
+    },
+    "ZGVjby1zaXRlcy9oZWFkZXJzaWdtYS9zZWN0aW9ucy9IZWFkZXIudHN4@Props": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Title"
+        },
+        "imageUrl": {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
+          "title": "Image Url"
+        }
+      },
+      "required": [
+        "imageUrl"
+      ],
+      "title": "deco-sites/headersigma/sections/Header.tsx@Props"
+    },
     "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9BbmFseXRpY3MudHN4@Props": {
       "type": "object",
       "properties": {
@@ -9538,6 +9565,43 @@
         }
       }
     },
+    "ZGVjby1zaXRlcy9oZWFkZXJzaWdtYS9zZWN0aW9ucy9IZWFkZXIudHN4": {
+      "title": "deco-sites/headersigma/sections/Header.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9oZWFkZXJzaWdtYS9zZWN0aW9ucy9IZWFkZXIudHN4@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/headersigma/sections/Header.tsx"
+          ],
+          "default": "deco-sites/headersigma/sections/Header.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9oZWFkZXJzaWdtYS9zZWN0aW9ucy9IZXJvLnRzeA==": {
+      "title": "deco-sites/headersigma/sections/Hero.tsx",
+      "type": "object",
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/headersigma/sections/Hero.tsx"
+          ],
+          "default": "deco-sites/headersigma/sections/Hero.tsx"
+        }
+      }
+    },
     "ZGVjby1zaXRlcy9oZWFkZXJzaWdtYS9zZWN0aW9ucy9UZWFtLnRzeA==": {
       "title": "deco-sites/headersigma/sections/Team.tsx",
       "type": "object",
@@ -10673,6 +10737,12 @@
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9oZWFkZXJzaWdtYS9zZWN0aW9ucy9IZWFkLnRzeA=="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9oZWFkZXJzaWdtYS9zZWN0aW9ucy9IZWFkZXIudHN4"
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9oZWFkZXJzaWdtYS9zZWN0aW9ucy9IZXJvLnRzeA=="
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9oZWFkZXJzaWdtYS9zZWN0aW9ucy9UZWFtLnRzeA=="

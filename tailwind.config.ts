@@ -1,6 +1,10 @@
 export const theme = {
-  "primary": "hsl(180 100% 10%)",
+  "primary": "#558bff",
   "secondary": "hsl(0 39% 39%)",
+  "background": "#1f1f26",
+  "section": " #201f26",
+  "high-light": "#0a58ca",
+  "copyright": "#ccc",
   "accent": "hsl(150 100% 50%)",
   "neutral": "hsl(0 0% 20%)",
   "base-100": "hsl(0 0% 100%)",
